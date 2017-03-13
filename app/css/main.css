@@ -1,0 +1,45 @@
+body {
+	position: relative;
+	height: 100%;
+}
+.active {
+	color: #ffffff;
+	background-color: #AFB7C4;
+}
+.jumbotron {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	border-image-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	margin-top: 55px;
+	border-radius: 0;
+}
+
+#emailForm {
+	margin: 1.5em auto;
+}
+#email {
+	width: 300px;
+}
+.summary-wrapper {
+	text-align: center;
+	margin: 2.5em 0;
+}
+.card img {
+	max-width: 100%;
+}
+#appStoreIcon {
+	max-width: 30%;
+}
+#footer {
+	text-align: center;
+	margin-top: 3.5em;
+	padding: 2em 0;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center bottom;
+	color: #ffffff;
+}

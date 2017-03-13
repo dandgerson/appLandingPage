@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>App Landing Page</title>
+
+	<!-- CDN service -->
+	<!-- FontAwesom -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- SEO -->
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="autor" content="dandgerson dandgerson@gmail.com">
+
+	<!-- bower CSS -->
+	<link rel="stylesheet" href="bower/tether/dist/css/tether.min.css">
+	<link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- custom CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="0">
+	<!--[if lt IE 7]>
+	<p class="browsehappy">Вы используете <strong>устаревший</strong> браузер.
+	Пожалуйста <a href="http://browsehappy.com/"><strong>обновите</strong></a> его.</p>
+	<![endif]-->
+
+	<!-- Code here -->
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top" >
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand" href="#">MyApp</a>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#download">Download The App</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="email" placeholder="Email">
+				<input class="form-control mr-sm-2" type="password" placeholder="Password">
+				<button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+			</form>
+		</div>
+	</nav>
+
+	<div class="jumbotron" id="jumbotron">
+		<h1 class="display-3">My Awesome App!</h1>
+		<p class="lead">This is why YOU should download this fantastic app!</p>
+		<hr class="my-4">
+		<p>Want to know more? Join to mailing list!</p>
+		<p class="lead">
+			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+		</p>
+		<form class="form-inline">
+			<div class="form-group" id="emailForm">
+				<label class="sr-only" for="email">Email address</label>
+				<div class="input-group">
+					<div class="input-group-addon">@</div>
+					<input type="email" class="form-control" id="email" placeholder="Your email">
+				</div>
+				<button type="submit" class="btn btn-primary">Sign up</button>
+			</div>
+		</form>
+	</div>
+
+	<div class="container" id="about">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="summary-wrapper">
+					<h1>Why This App Is Awesome</h1>
+					<p class="lead">Summary, once again, of your app's awesomeness</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="card-deck">
+			<div class="card">
+				<img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+				<div class="card-block">
+					<h4 class="card-title"><i class="fa fa-paw" aria-hidden="true"></i></i> Card title</h4>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+				<div class="card-block">
+					<h4 class="card-title"><i class="fa fa-paw" aria-hidden="true"></i></i> Card title</h4>
+					<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="img/card.jpg" alt="Card image cap">
+				<div class="card-block">
+					<h4 class="card-title"><i class="fa fa-paw" aria-hidden="true"></i></i> Card title</h4>
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="download">
+		<div class="row">
+		<div id="footer">
+			<div class="col-lg-12">
+			
+				<h2>Download the app!</h2>
+				<p class="lead">Really, why should I download this app??</p>
+				<p><a href="#"><img id="appStoreIcon" src="img/Icon_App_Store.png" alt=""></a></p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- JS Plugins -->
+	<script src="bower/jquery/dist/jquery.slim.min.js"></script>
+	<script src="bower/tether/dist/js/tether.min.js"></script>
+	<script src="bower/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<script></script>
+
+	<script src="js/main.js"></script>
+
+	<!-- JQuery test script -->
+	<!-- <script>
+		if (typeof jQuery == "undefined") {
+			alert("jQuery is not installed!");
+		} else {
+			alert("jQuery is installed correctly!");
+		}
+	</script> -->
+</body>
+</html>

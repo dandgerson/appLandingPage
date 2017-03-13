@@ -1,0 +1,17 @@
+{
+  "name": "appLandingPage",
+  "homepage": "https://github.com/dandgerson/TheCompleteWebDeveloperCourse2.0",
+  "authors": [
+    "dandgerson <dandgerson@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
